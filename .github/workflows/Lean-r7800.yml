@@ -4,7 +4,7 @@
 # Author: kenzo
 #=================================================
 
-name: Lean
+name: Lean-r7800
 
 on:
   repository_dispatch:
@@ -38,7 +38,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [Lean]
+        target: [ipq806x]
     
     steps:
     - name: Checkout
